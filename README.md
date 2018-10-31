@@ -8,5 +8,5 @@ Register jobs with:
 
 The console output of finished jobs is sent as plain text to an HTTP server listening on port 8001.
 
-- Run GoCron with: `go run GoCron.go`
-- Run Server with: `go run server/Server.go`
+- Build GoCron with: `go build GoCron.go`
+- Build Server with: `go build server/Server.go`
