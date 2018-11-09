@@ -1,6 +1,6 @@
 # gocron
 
-gocron is a job scheduler used as sample in Dynatrace blog post [Introducing Custom Services for Go Applications](https://www.google.com). It accepts job registration requests on port 8000 and will execute the application specified in the job definition periodically.
+gocron is a job scheduler used as sample in Dynatrace blog post [Introducing Custom Services for Go Applications](https://www.dynatrace.com/news/blog/introducing-custom-services-for-go-applications/). It accepts job registration requests on port 8000 and will execute the application specified in the job definition periodically.
 
 Register jobs with:
 - `curl -X POST "http://localhost:8000/register?command=APPLICATION&schedule=SCHEDULE"`
